@@ -1,0 +1,30 @@
+/* General table styling */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+th, td {
+    border: 2px solid #333;
+    padding: 10px;
+}
+
+/* Header styling */
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* Row hover effect (pseudo-class) */
+tr:hover {
+    background-color: #f2f2f2;
+}
+
+/* Page title styling */
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-family: Arial, sans-serif;
+}
